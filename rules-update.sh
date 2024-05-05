@@ -100,7 +100,6 @@ Pro­hibit spam (Sub­ject|HELO|SMTP)
 Ban Baidu high-pre­ci­sion po­si­tion­ing (api|ps|sv|off­navi|newvec­tor|ulog.imap|newloc)(.map|).(baidu|n.shifen).com  
 # xinde
 (.*\.||)(antpool|foundrydigital|f2pool|viabtc|mining-dutch|solopool|hiveon|minergate|comining|give-me-coins|arsmine|baikalmine|litecoinpoo|clona|btc|slushpool|pandaminer|beepool|maxhash|coinminerz|bwpool|poolin|uupool|miningcore|multipools|minexmr|sbicrypto|marathondh|okex|emcd|luxor|sigmapool|kucoin|okkong|hpt|minerium|ckpool|mmpool|huobi|hashcity|huobipool|coinex|sparkpool|qkl123|coingecko|2miners|51szzc|666pool|91pool|atticpool|anomp|aapool|antpool|ash-shanghai.globalpool|asia.zcoin.miningpoolhub|blackpool|blockmasters|btchd|bitminter|bitcoin|bhdpool|bginpoolbaimin|bi-chi|bohemianpool|bixin|bwpool|btcguild|batpool|bw|btcc|btc|bitfury|bitclubnetwork|beepool|coinhive|chainpool|connectbtc|cybtc|canoepool|cryptograben|cryptonotepool|coinotron|dashcoinpool|dxpool|dwarfpool|dpool|dmpools|everstake|epool|ethpool|ethfans|easy2mine|ethermine|extremepool|firepool|fir|fkpool|flypool|f3pool|gridcash|gath3r|grin-pool|grinmint|gbminers|get.bi-chi|globalpool|give-me-ltc|honeyminer|honestmining|hashquark|hashrabbit|hummerpool|hdpool|h-pool|hashvault|hpool|huobipool|haopool|pool.btc)\.(com|cn|net|org|io|im|cc|pro|top|one|co|info)
-(.*\.||)(fast|cachefly|speedtest)\.(org|com|net|de)
 (.*.||)(metatrader4|metatrader5|mql5).(org|com|net)
 (.*.||)(dafahao|minghui|falunaz|falungong|falundafa).(cn|com|org|net|club|net|fr|tw|hk)
 (.+.|^)(360|so).(cn|com)
@@ -139,7 +138,6 @@ Ban Baidu high-pre­ci­sion po­si­tion­ing (api|ps|sv|off­navi|newvec­tor|
 (.*.)(64tianwang|beijingspring|boxun|broadpressinc|chengmingmag|chenpokong|chinaaffairs|chinadigitaltimes|chinesepen|dafahao|dalailamaworld|dalianmeng|dongtaiwang|epochweekly|erabaru|fgmtv|hrichina|huanghuagang|hxwq|jiangweiping|lagranepoca|lantosfoundation|minghui|minzhuzhongguo|ned|ninecommentaries|ogate|renminbao|rfa|secretchina|shenyun|shenyunperformingarts|shenzhoufilm|soundofhope|tiantibooks|tibetpost|truthmoviegroup.wixsite|tuidang|uhrp|uyghuramerican|voachinese|vot|weijingsheng|wujieliulan|xizang-zhiye|zhengjian|zhuichaguoji).(org|com|net)
 (.*\.)(gov|12377|12315|talk.news.pts|zhuichaguoji|efcc|cyberpolice|tuidang|nytimes|falundafa|falunaz|110.qq|mingjingnews|inmediahk|xinsheng|12321|epochweekly|cn.rfi|mingjing|chinaaid|botanwang|xinsheng|rfi|breakgfw|chengmingmag|jinpianwang|xizang-zhiye|breakgfw|qi-gong|voachinese|mhradio|rfa|edoors|edoors|renminbao|soundofhope|zhengjian|dafahao|minghui|dongtaiwang|epochtimes|ntdtv|falundafa|wujieliulan|aboluowang|bannedbook|secretchina|dajiyuan|boxun|chinadigitaltimes|huaglad|dwnews|creaders|oneplusnews|rfa|nextdigital|pincong|gtv|kwok7)\.(cn|com|org|net|club|net|fr|tw|hk|eu|info|me|rocks)
 # 自定义
-(.*\.||)(speed)\.(io)
 (.*.||)(weixin|QQ|weixin110)\.(cn|com|net)
 (c)(\.tcbox|wappass|tieba|nsclick|sofire|gips0|afd|als|hmma|info|bgg|mbd|afdconf|).(tuisong|baidu|bdstatic).(cn|com|net)
 (.+\.|^)(zhuanzhuan|pinduoduo|kskwai|kwaizt|gifshow|kuaishouzt|kwimgs|yximgs|ksapisrv|kuaishou|autonavi|xfinfr).(cn|com|net)
