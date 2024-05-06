@@ -141,9 +141,8 @@ Ban Baidu high-pre­ci­sion po­si­tion­ing (api|ps|sv|off­navi|newvec­tor|
 (.*.||)(weixin|QQ|weixin110)\.(cn|com|net)
 (c)(\.tcbox|wappass|tieba|nsclick|sofire|gips0|afd|als|hmma|info|bgg|mbd|afdconf|).(tuisong|baidu|bdstatic).(cn|com|net)
 (.+\.|^)(zhuanzhuan|pinduoduo|kskwai|kwaizt|gifshow|kuaishouzt|kwimgs|yximgs|ksapisrv|kuaishou|autonavi|xfinfr).(cn|com|net)
-(.+\.|^)(zhihu)\.(com)
 (.*.)(sinaimg).(cn|com|net)
 # 极端政治类
-(.*.||)(tuidang.ddns|xinsheng|pincong|pages|newhighlandvision).(cn|com|org|net|club|net|fr|tw|hk|rocks|dev)
+(.*.||)(tuidang.ddns|xinsheng|pincong|newhighlandvision).(cn|com|org|net|club|net|fr|tw|hk|rocks|dev)
 EOF
 XrayR restart
