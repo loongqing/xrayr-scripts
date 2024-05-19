@@ -1,4 +1,3 @@
-rm -rf /etc/XrayR/routes.txt
 cat << EOF > /etc/XrayR/routes.txt
 # 轮子、Fake News
 falundafa
@@ -77,34 +76,11 @@ izuiyou.com
 pipigx.com
 ixiaochuan.cn
 duitang.com
-# 正则
-#
-##惹不起 - 迅雷 
-Ban Thun­der (.?)(xun­lei|sandai|Thun­der|XL­LiveUD)(.) 
-##2 惹不起 - 神功 2 
-##Ban wheel-2
-#(.*.||)(gov|12377|12315|talk.news.pts.org|cread­ers|zhuich­aguoji|efcc.org|cy­ber­po­lice|abolu­owang|tu­idang|epochtimes|dafa­hao|falundafa|minghui|falu­naz|zhengjian|110.qq|mingjingnews|in­medi­ahk|xin­sheng|banned­book|nt­dtv|falun­gong|12321|se­cretchina|epochweekly|cn.rfi).(cn|com|org|net|club|net|fr|tw|hk)  
-##3 禁止垃圾邮件 Ban Spam 
-Ban Spam (^.*@)(guer­ril­la­mail|guer­ril­la­mail­block|shark­lasers|grr|poke­mail|spam4|bc­cto|chacuo|027168).(info|biz|com|de|net|org|me|la)  
-##4 惹不起 -
-BT Ban  BT Bit­Tor­rent pro­to­col  
-##6 惹不起 - BT2 
-Ban BT-2  (tor­rent|.tor­rent|peer_id=|in­fo_hash|get_peers|find­_n­ode|Bit­Tor­rent|an­nounce_peer|an­nounce.php?passkey=)  
-##7 惹不起 - 神功 Ban wheel
-# (.*.||)(dafa­hao|minghui|dong­tai­wang|epochtimes|nt­dtv|falundafa|wu­jieli­u­lan|zhengjian).(org|com|net)  
-##8 禁止垃圾邮件 
-Pro­hibit spam (Sub­ject|HELO|SMTP)  
-##9 惹不起 - 360 
-360 ser­vice pro­hib­ited  (.+.|^)(360|so).(cn|com)  
-##10 惹不起 - 百度精准定位 
-Ban Baidu high-pre­ci­sion po­si­tion­ing (api|ps|sv|off­navi|newvec­tor|ulog.imap|newloc)(.map|).(baidu|n.shifen).com  
-# xinde
 (.*\.||)(antpool|foundrydigital|f2pool|viabtc|mining-dutch|solopool|hiveon|minergate|comining|give-me-coins|arsmine|baikalmine|litecoinpoo|clona|btc|slushpool|pandaminer|beepool|maxhash|coinminerz|bwpool|poolin|uupool|miningcore|multipools|minexmr|sbicrypto|marathondh|okex|emcd|luxor|sigmapool|kucoin|okkong|hpt|minerium|ckpool|mmpool|huobi|hashcity|huobipool|coinex|sparkpool|qkl123|coingecko|2miners|51szzc|666pool|91pool|atticpool|anomp|aapool|antpool|ash-shanghai.globalpool|asia.zcoin.miningpoolhub|blackpool|blockmasters|btchd|bitminter|bitcoin|bhdpool|bginpoolbaimin|bi-chi|bohemianpool|bixin|bwpool|btcguild|batpool|bw|btcc|btc|bitfury|bitclubnetwork|beepool|coinhive|chainpool|connectbtc|cybtc|canoepool|cryptograben|cryptonotepool|coinotron|dashcoinpool|dxpool|dwarfpool|dpool|dmpools|everstake|epool|ethpool|ethfans|easy2mine|ethermine|extremepool|firepool|fir|fkpool|flypool|f3pool|gridcash|gath3r|grin-pool|grinmint|gbminers|get.bi-chi|globalpool|give-me-ltc|honeyminer|honestmining|hashquark|hashrabbit|hummerpool|hdpool|h-pool|hashvault|hpool|huobipool|haopool|pool.btc)\.(com|cn|net|org|io|im|cc|pro|top|one|co|info)
 (.*.||)(metatrader4|metatrader5|mql5).(org|com|net)
 (.*.||)(dafahao|minghui|falunaz|falungong|falundafa).(cn|com|org|net|club|net|fr|tw|hk)
 (.+.|^)(360|so).(cn|com)
 (api|ps|sv|offnavi|newvector|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
-# (torrent|\.torrent|peer_id=|info_hash|get_peers|find_node|BitTorrent|announce_peer|announce\.php\?passkey=)
 (^.*\@)(guerrillamail|guerrillamailblock|sharklasers|grr|pokemail|spam4|bccto|chacuo|027168)\.(info|biz|com|de|net|org|me|la)
 (eth|asia|eth-eu|eth-us|cn|eth-backup|eth-na|stratum-etheth-eu1|eth-eu2)\.(antpool|sparkpool|f2pool|nanopool)\.(org|com)
 (.*\.||)(dafahao|minghui|dongtaiwang|epochtimes|ntdtv|falundafa|wujieliulan|zhengjian)\.(org|com|net)
@@ -130,8 +106,8 @@ Ban Baidu high-pre­ci­sion po­si­tion­ing (api|ps|sv|off­navi|newvec­tor|
 (.*\.)(metatrader4|metatrader5|mql5)\.(org|com|net) 
 (Subject|HELO|SMTP)
 (^.*@)(guer­ril­la­mail|guer­ril­la­mail­block|shark­lasers|grr|poke­mail|spam4|bc­cto|chacuo|027168).(info|biz|com|de|net|org|me|la) 
-(..)(dafahao|minghui|dongtaiwang|epochtimes|ntdtv|falundafa|wujieliulan|zhengjian).(org|com|net) (..)(dafa­hao|minghui|dong­tai­wang|epochtimes|nt­dtv|falundafa|wu­jieli­u­lan|zhengjian).(org|com|net) (.*.)(dafa­hao|minghui|dong­tai­wang|epochtimes|nt­dtv|falundafa|wu­jieli­u­lan|zhengjian).(org|com|net)
-(tor­rent|.tor­rent|peer_id=|in­fo_hash|get_peers|find­_n­ode|Bit­Tor­rent|an­nounce_peer|an­nounce.php?passkey=) (tor­rent|.tor­rent|peer_id=|in­fo_hash|get_peers|find­_n­ode|Bit­Tor­rent|an­nounce_peer|an­nounce.php?passkey=) (tor­rent|.tor­rent|peer_id=|in­fo_hash|get_peers|find­_n­ode|Bit­Tor­rent|an­nounce_peer|an­nounce.php?passkey=)
+(..)(dafahao|minghui|dongtaiwang|epochtimes|ntdtv|falundafa|wujieliulan|zhengjian).(org|com|net)
+(.tor­rent|peer_id=|in­fo_hash|get_peers|find­_n­ode|Bit­Tor­rent|an­nounce_peer|an­nounce.php?passkey=)
 (.?)(xun­lei|sandai|Thun­der|XL­LiveUD)(.)
 (.+.|^)(whatismyip|whatismyi­pad­dress|ipip|iplo­ca­tion|myip|whatismy­browser).(cn|com|net|com|net­work) (.+.|^)(whatismyip|whatismyi­pad­dress|ipip|iplo­ca­tion|myip|whatismy­browser).(cn|com|net|com|net­work)
 (.*\.)(pincong)\.(rocks)
