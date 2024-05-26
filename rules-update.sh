@@ -86,7 +86,6 @@ duitang.com
 (.*\.||)(dafahao|minghui|dongtaiwang|epochtimes|ntdtv|falundafa|wujieliulan|zhengjian)\.(org|com|net)
 (.*\.||)(gash)\.(com|tw)
 (.*\.||)(mycard)\.(com|tw)
-.*gov.*
 .*go.kr.*
 (.*.||)(cyberpolice|12377|110|12337|12389|jubao|8221110|cctv|81|12388|isc|12339|js12377).(org|com|net|cn|gov)
 (.*.||)(ipaddress|whatismyipaddress|whoer|iplocation|ip138).(org|com|net|my|to|co)
@@ -100,8 +99,6 @@ duitang.com
 (.*.||)(adsafe).(com)
 (.?)(xunlei|sandai|Thunder|XLLiveUD)(.) 
 (.+\.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan)\.(cn|com)
-(api|ps|sv|offnavi|newvector|ulog|newloc).(map|imap).(baidu|n.shifen).com 
-(api|ps|sv|offnavi|newvector|ulog\.imap|newloc)(\.map|)\.(baidu|n\.shifen)\.com 
 (.*\.)(visa|mycard|mastercard|gash|beanfun|bank).* 
 (.*\.)(metatrader4|metatrader5|mql5)\.(org|com|net) 
 (Subject|HELO|SMTP)
@@ -112,10 +109,9 @@ duitang.com
 (.+.|^)(whatismyip|whatismyi­pad­dress|ipip|iplo­ca­tion|myip|whatismy­browser).(cn|com|net|com|net­work) (.+.|^)(whatismyip|whatismyi­pad­dress|ipip|iplo­ca­tion|myip|whatismy­browser).(cn|com|net|com|net­work)
 (.*\.)(pincong)\.(rocks)
 (.*.)(64tianwang|beijingspring|boxun|broadpressinc|chengmingmag|chenpokong|chinaaffairs|chinadigitaltimes|chinesepen|dafahao|dalailamaworld|dalianmeng|dongtaiwang|epochweekly|erabaru|fgmtv|hrichina|huanghuagang|hxwq|jiangweiping|lagranepoca|lantosfoundation|minghui|minzhuzhongguo|ned|ninecommentaries|ogate|renminbao|rfa|secretchina|shenyun|shenyunperformingarts|shenzhoufilm|soundofhope|tiantibooks|tibetpost|truthmoviegroup.wixsite|tuidang|uhrp|uyghuramerican|voachinese|vot|weijingsheng|wujieliulan|xizang-zhiye|zhengjian|zhuichaguoji).(org|com|net)
-(.*\.)(gov|12377|12315|talk.news.pts|zhuichaguoji|efcc|cyberpolice|tuidang|nytimes|falundafa|falunaz|110.qq|mingjingnews|inmediahk|xinsheng|12321|epochweekly|cn.rfi|mingjing|chinaaid|botanwang|xinsheng|rfi|breakgfw|chengmingmag|jinpianwang|xizang-zhiye|breakgfw|qi-gong|voachinese|mhradio|rfa|edoors|edoors|renminbao|soundofhope|zhengjian|dafahao|minghui|dongtaiwang|epochtimes|ntdtv|falundafa|wujieliulan|aboluowang|bannedbook|secretchina|dajiyuan|boxun|chinadigitaltimes|huaglad|dwnews|creaders|oneplusnews|rfa|nextdigital|pincong|gtv|kwok7)\.(cn|com|org|net|club|net|fr|tw|hk|eu|info|me|rocks)
+(.*\.)(12377|12315|talk.news.pts|zhuichaguoji|efcc|cyberpolice|tuidang|nytimes|falundafa|falunaz|110.qq|mingjingnews|inmediahk|xinsheng|12321|epochweekly|cn.rfi|mingjing|chinaaid|botanwang|xinsheng|rfi|breakgfw|chengmingmag|jinpianwang|xizang-zhiye|breakgfw|qi-gong|voachinese|mhradio|rfa|edoors|edoors|renminbao|soundofhope|zhengjian|dafahao|minghui|dongtaiwang|epochtimes|ntdtv|falundafa|wujieliulan|aboluowang|bannedbook|secretchina|dajiyuan|boxun|chinadigitaltimes|huaglad|dwnews|creaders|oneplusnews|rfa|nextdigital|pincong|gtv|kwok7)\.(cn|com|org|net|club|net|fr|tw|hk|eu|info|me|rocks)
 # 自定义
 (.*.||)(weixin|QQ|weixin110)\.(cn|com|net)
-(c)(\.tcbox|wappass|tieba|nsclick|sofire|gips0|afd|als|hmma|info|bgg|mbd|afdconf|).(tuisong|baidu|bdstatic).(cn|com|net)
 (.+\.|^)(zhuanzhuan|pinduoduo|kskwai|kwaizt|gifshow|kuaishouzt|kwimgs|yximgs|ksapisrv|kuaishou|autonavi|xfinfr).(cn|com|net)
 (.*.)(sinaimg).(cn|com|net)
 # 极端政治类
